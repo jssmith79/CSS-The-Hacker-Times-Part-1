@@ -2,8 +2,9 @@
 
 h1 {
     text-align: center;
+    font-family: "Abril Fatface";
 }
-
+/* created an ID to define the syntax and styling*/
 .nav-bar {
     display: block;
     background-color: lightgray;
@@ -14,13 +15,19 @@ h1 {
     margin: 0;
 }
 
+/* make the nav bar horizontal */
+
 li {
     display: inline-block;
     font-size: x-small;
     padding: 5px;
-    color: gray;
+    color: #777;
     
 }
+
+/* add styling for the fonts padding and borders*/
+
+
 .newspaper-container {
     border: 1px solid black;
     border-radius: 3px;
@@ -28,7 +35,7 @@ li {
     padding-left: 2em;
     padding-right: 2em;
     font-family: 'Roboto Slab';
-    box-shadow: 5px 5px gray;
+    box-shadow: 5px 5px #ddd;
 }
 
 body {
@@ -36,7 +43,11 @@ body {
     box-shadow: 5px;
     background-color: white;
     margin: auto;
+    color: black;
+    font-family: "Source Sans Pro"
 }
+
+/* coloring of the margins and background */
 
 html {
     background-color: lightgray;
