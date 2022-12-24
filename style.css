@@ -53,3 +53,9 @@ html {
     background-color: lightgray;
     margin-left: 2em;
 }
+
+.more-articles section {
+    display: inline-block;
+    margin: 0 1em;
+    width: 44%;
+}
