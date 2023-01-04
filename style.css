@@ -6,6 +6,8 @@ h1 {
 }
 /* created an ID to define the syntax and styling*/
 .nav-bar {
+    position: sticky;
+    top: 0px;    
     display: block;
     background-color: lightgray;
     border-top: 1px solid black;
@@ -13,6 +15,7 @@ h1 {
     width: 100%;
     list-style-type: none;
     margin: 0;
+    opacity: 0.5;
 }
 
 /* make the nav bar horizontal */
@@ -58,4 +61,11 @@ html {
     display: inline-block;
     margin: 0 1em;
     width: 44%;
+}
+
+footer {
+    text-align: center;
+    size: 5pt;
+    color: darkblue;
+    background-color: lightgray;
 }
